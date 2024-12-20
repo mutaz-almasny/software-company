@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/loginandsignup.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <!-- Exist Logo When SignUp is Successful  -->
+    <div class="success">
+        <p>تسجيل دخول ناجح</p>
+        <img src="/Imgs/check (3).png" class="img-small">
+    </div>
+    <div class="container">
+
+                <!-- Form For log in -->
+        <form action="" id="signUpForm">
+            <div class="brand-logo">
+                <img src="/Imgs/Icon/icon full copy.png" alt="">
+            </div>
+            <div class="inputs">
+                <div class="user-name">
+                  <label>اسم المستخدم</label>
+                  <input type="text" placeholder="اسم المستخدم" id="user-name-up" maxlength="8"/>
+                </div>
+
+              <div class="password">
+                    <label>كلمة المرور</label>
+                    <img src="https://cdn-icons-png.flaticon.com/512/5618/5618439.png" alt="" class="show" id="show">
+                    <input type="password" placeholder="كلمة المرور" id="pass-up" minlength="4" maxlength="12" />
+              </div>
+
+              <div class="confirm-password">
+                  <label>تأكيد كلمة المرور</label>
+                  <img src="https://cdn-icons-png.flaticon.com/512/5618/5618439.png" alt="" class="show confirm" id="show-confirm">
+                  <input type="password" placeholder="تأكيد كلمة المرور" id="checked-pass-up" minlength="4" maxlength="12" />
+              </div>
+            </div>
+
+              <button type="submit" id="submit">تسجيل الدخول</button>
+        </form>
+    <script src="/JS/signup.js"></script>
+</body>
+</html>
